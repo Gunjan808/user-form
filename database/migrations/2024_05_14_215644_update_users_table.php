@@ -14,7 +14,7 @@ return new class extends Migration
         Schema::table('users', function (Blueprint $table) {
             $table->string('phone');
             $table->longText('description');
-            $table->integer('role_id')->unsigned();
+            $table->bigInteger('role_id')->unsigned();
             $table->text('profile_image');
             $table->timestamps();
 
