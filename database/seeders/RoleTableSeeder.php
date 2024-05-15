@@ -16,13 +16,11 @@ class RoleTableSeeder extends Seeder
     {
         $faker = Faker::create();
          // Create a sample role
-        foreach (range(1, 1) as $index) {
-            Role::create([
+        Role::create([
               
 
-                'name' => 'Admin'
-              
-            ]);
-        }
+            'name' => 'Admin'
+          
+        ]);
     }
 }

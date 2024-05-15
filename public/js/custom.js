@@ -10,8 +10,6 @@ $(document).ready(function() {
         }
     });
 
-    
-
 
 
     $('#userForm').on('submit', function(e) {
